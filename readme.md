@@ -8,4 +8,4 @@ Sample ADC reader for RPI using DMA
 
 # Links 
 
-Based on the project https://github.com/miketsukerman/WaveShare-ADS1256
+Based on the project https://github.com/Habraken/WaveShare-ADS1256
