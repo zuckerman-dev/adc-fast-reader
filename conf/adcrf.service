@@ -1,0 +1,8 @@
+[Unit]
+Description=ADC fast reader
+
+[Service]
+ExecStart=/usr/bin/adcrf
+
+[Install]
+WantedBy=multi-user.target
