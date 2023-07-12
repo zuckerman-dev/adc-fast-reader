@@ -2,7 +2,7 @@
 Description=ADC fast reader
 
 [Service]
-ExecStart=/usr/bin/adcrf
+ExecStart=/usr/bin/adcrf -C 4 -n 2 -d 4 -s /tmp/adc.fifo
 
 [Install]
 WantedBy=multi-user.target
